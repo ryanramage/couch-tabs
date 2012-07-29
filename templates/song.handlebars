@@ -1,0 +1,22 @@
+<div class="return">
+    <a href="#/list">Back To List</a>
+</div>
+<h2>{{nice_song}}</h2>
+<h5>{{nice_artist}}</h5>
+
+<div class="p">
+
+</div>
+
+<pre>
+
+</pre>
+
+<div class="uploadAudio hide">
+    <h5>Add Audio</h5>
+    <form action="./_db/{{_id}}" method="post" enctype="multipart/form-data">
+        <input type="file" name="_attachments" accept="audio/mp3" id="fileUploader" />
+        <input type="hidden" name="_rev" value="{{_rev}}" />
+        <input type="submit" class="btn submit hide" value="Add" />
+    </form>
+</div>

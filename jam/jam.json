@@ -1,0 +1,14 @@
+{
+    "jam_version": "0.1.14",
+    "dependencies": {
+        "jquery": null,
+        "bootstrap": null,
+        "couchr": null,
+        "hbt": null,
+        "domReady": null,
+        "director": null,
+        "slang": null,
+        "underscore": null,
+        "jplayer": "linked"
+    }
+}

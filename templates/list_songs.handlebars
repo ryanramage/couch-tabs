@@ -1,0 +1,17 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>Song</th>
+            <th>Artist</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#each .}}
+        <tr>
+            <td><a href="#/view/{{id}}">{{nice}}</a></td>
+            <td>Pending</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
+

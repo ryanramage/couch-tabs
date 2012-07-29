@@ -1,0 +1,16 @@
+{
+
+    "name": "tabs",
+    "version": "0.0.1",
+    "description": "WF couchapp",
+    "modules": "ddoc",
+    "load": "ddoc/ddoc",
+    "attachments": ["css", "img", "jam", "js","templates", "index.html"],
+    "dependencies": {
+        "modules": null,
+        "properties": null,
+        "underscore": null,
+        "attachments": null
+    }
+
+}
